@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyweek-35"
+version = "0.1.0"
+description = "Luna's entry for PyWeek 35."
+authors = ["Luna <ojackson287@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyweek_35"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+arcade = "^2.6.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
